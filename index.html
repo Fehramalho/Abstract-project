@@ -8,97 +8,137 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <title>Abstract</title>
 </head>
 
 <body>
-    
+
     <header>
+        <!-- INICIO DA NAV -->
         <nav>
             <section class="navbar">
                 <div class="help">
                     <img src="src/imagens/logo.png" alt="logo">
-                    <span>| Central de ajuda</span>
+                    <span><i class="fa-solid fa-slash fa-rotate-by" style="--fa-rotate-angle: 51deg;""></i> Central de Ajuda</span>
                 </div>
-                <div class="btns">
-                    <button class="btn btn-entrar">Entrar</button>
-                    <button class="btn btn-cadastrar">Solicitação</button>
+                <!-- MENU NAV LIST -->
+                <div class=" btns">
+                            <button class="btn btn-entrar">Entrar</button>
+                            <button class="btn btn-cadastrar">Solicitação</button>
                 </div>
-            </section >
+
+                <div class="search">
+                    <input type="search" name="search" placeholder="Pesquisar"><i class="fa-solid fa-xmark fa-xl"></i>
+                </div>
+                <!-- MENU MOBILE -->
+                <div class="menu">
+                    <i class="fa-solid fa-magnifying-glass fa-xl lupa"></i>
+                    <i class="fa-solid fa-bars fa-xl"></i>
+                </div>
+            </section>
         </nav>
+        <!-- FIM DA NAV -->
+
+        <!-- INPUT POSSO TE AJUDAR -->
         <section class="question">
             <h1>Como podemos ajudar?</h1>
-            
-                <form >
-                    <input type="search" name="search" placeholder="Pesquisar">
-                  <i class="fa-solid fa-circle-arrow-right fa-xl"></i>
-                </form>
-            
+
+            <form>
+                <input type="search" name="search" placeholder="Pesquisar">
+                <i class="fa-solid fa-circle-arrow-right fa-xl"></i>
+            </form>
+
         </section>
     </header>
+
+    <!-- INICIO DA MAI -->
+
     <main>
-        <section>
-            <article>
-                <img src="src/imagens/icon-abstract.png" alt="icon-abstract">
-                <div>
-                    <h2>
-                        Usando Abstract
-                    </h2>
-                    <p>Abstract permite gerenciar, versionar e documentar seus projetos em um só lugar</p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+        <section class="container">
+            <article class="abstract">
+
+                <div class="container-publi">
+                    <img src="src/imagens/icon-abstract.png" alt="icon-abstract">
+                    <div class="descricao">
+                        <h2>
+                            Usando Abstract
+                        </h2>
+                        <p>Abstract permite gerenciar, versionar e documentar seus projetos em um só lugar</p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
-                <div>
+                <div class="container-publi">
                     <img src="src/imagens/icon-organizations.png" alt="">
-                    <h2>
-                        Gerenciar organizações, equipes e projetos
-                    </h2>
-                    <p>
-                        Use organizações, equipes e projetos abstratos para organizar seu pessoal e seu trabalho.
-                    </p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+                    <div class="descricao">
+                        <h2>
+                            Gerenciar organizações, equipes e projetos
+                        </h2>
+                        <p>
+                            Use organizações, equipes e projetos abstratos para organizar seu pessoal e seu trabalho.
+                        </p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
-                <div>
+                <div class="container-publi">
                     <img src="src/imagens/icon-authenticate.png" alt="">
-                    <h2>
-                        Autenticar para Abstrato
-                    </h2>
-                    <p>
-                        Configure e configure o provisionamento SSO, SCim e Just-in-Time
-                    </p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+                    <div class="descricao">
+                        <h2>
+                            Autenticar para Abstrato
+                        </h2>
+                        <p>
+                            Configure e configure o provisionamento SSO, SCim e Just-in-Time
+                        </p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
-                <div>
+                <div class="container-publi">
                     <img src="src/imagens/icon-manager.png" alt="icon-manager">
-                    <h2>
-                        Gerencie sua conta
-                    </h2>
-                    <p>
-                        Configure as configurações da sua conta, como seu e-mail, detalhes do seu perfil e senha
-                    </p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+                    <div class="descricao">
+                        <h2>
+                            Gerencie sua conta
+                            <div class="descricao">
+                        </h2>
+                        <p>
+                            Configure as configurações da sua conta, como seu e-mail, detalhes do seu perfil e senha
+                        </p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
-                <div>
+                </div>
+                <div class="container-publi">
                     <img src="src/imagens/icon-billing.png" alt="icon-billing">
-                    <h2>
-                        Gerenciar faturamento
-                    </h2>
-                    <p>
-                        Alterar assinaturas e detalhes de pagamentos.
-                    </p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+                    <div class="descricao">
+                        <h2>
+                            Gerenciar faturamento
+                        </h2>
+                        <p>
+                            Alterar assinaturas e detalhes de pagamentos.
+                        </p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
-                <div>
-                    <img src="src/imagens/icon-comment.png" alt="icon-comment">
-                    <h2>
-                        Suporte Abstrato
-                    </h2>
-                    <p>
-                        Entre em contato com um ser humano.
-                    </p>
-                    <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs" style="color: #74C0FC;"></i> </a>
+                    <div class="container-publi">
+                        <img src="src/imagens/icon-comment.png" alt="icon-comment">
+                        <div class="descricao">
+                        <h2>
+                            Suporte Abstrato
+                        </h2>
+                         <p>
+                            Entre em contato com um ser humano.
+                        </p>
+                        <a href="#">Saiba mais<i class="fa-solid fa-arrow-right-long fa-flip-vertical fa-2xs"
+                                style="color: #74C0FC;"></i> </a>
+                    </div>
                 </div>
             </article>
             <footer>
