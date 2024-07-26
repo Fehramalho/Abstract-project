@@ -46,6 +46,7 @@ nav{
 }
 
 .help img{
+
     width:8.5em;
     background-color: var(--color-nf);
 ;
@@ -130,6 +131,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 3%;
 }
 .question h1{
     font-size: 3em;
