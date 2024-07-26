@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    outline: none;
+}
+:root{
+    --color-links:#4c5fd5;
+    --color-nf:#000;
+    --bg-color:#dadbf1;
+    --bg-color2:#fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 5.6em;
+}
+
+nav{
+    height: 8vh;
+}
