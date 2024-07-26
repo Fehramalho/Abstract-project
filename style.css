@@ -35,6 +35,9 @@ nav{
     justify-content: space-between;
     width: 100%;
 }
+.navbar span{
+    display: none;
+}
 .help{
     display: flex;
     align-items: center;
