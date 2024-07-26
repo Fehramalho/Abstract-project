@@ -7,28 +7,36 @@
     <meta name="authot" content="Fernando chaves">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <title>Abstract</title>
 </head>
 
 <body>
+    
     <header>
         <nav>
-            <div>
-                <img src="" alt="">
-                <span>| Central de ajuda</span>
-            </div>
-            <div>
-                <button>Enviar uma solicitação</button>
-                <button>Entrar</button>
-            </div>
+            <section class="navbar">
+                <div class="help">
+                    <img src="src/imagens/logo.png" alt="logo">
+                    <span>| Central de ajuda</span>
+                </div>
+                <div class="btns">
+                    <button class="btn btn-entrar">Entrar</button>
+                    <button class="btn btn-cadastrar">Solicitação</button>
+                </div>
+            </section >
         </nav>
-        <section>
+        <section class="question">
             <h1>Como podemos ajudar?</h1>
-            <div>
-                <input type="search" name="search" placeholder="Pesquisar">
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
+            
+                <form >
+                    <input type="search" name="search" placeholder="Pesquisar">
+                  <i class="fa-solid fa-circle-arrow-right fa-xl"></i>
+                </form>
+            
         </section>
     </header>
     <main>
