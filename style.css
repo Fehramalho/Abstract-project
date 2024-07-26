@@ -152,11 +152,12 @@ nav{
 }
 .question i{
     position: absolute;
-    top: 48%;
+    top: 50%;
     right: 0;
     width: 35%;
     height: 100%;
-    border: none}
+    border: none;
+}
 
     /* INICIO DA MAIN */
 .container{
