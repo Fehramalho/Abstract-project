@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,113 +7,127 @@
     font-family: "Montserrat", sans-serif;
 }
 
-:root{
+:root {
     --colorlinks-: #4c5fd5;
     --color-nf: #000;
     --bg-color: #dadbf1;
     --bg-color2-: #fff;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-nav{
+nav {
     height: 15vh;
-    background:var(--color-nf);
+    background: var(--color-nf);
     display: flex;
     align-items: center;
-    
+
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-.navbar span{
+
+.navbar span {
     display: none;
 }
-.help{
+
+.help {
     display: flex;
     align-items: center;
     float: left;
     margin-left: 3%;
 }
 
-.help img{
-    width:8.5em;
+.help img {
+    width: 8.5em;
     background-color: var(--color-nf);
-;
+    ;
 
 }
-.help span{
+
+.help span {
     color: var(--bg-color);
-    font-size:1.5em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
 /* INPUT DO NAV BAR */
-.search{
+.search {
     display: none;
     align-items: center;
     width: 100%;
     height: 100%;
-   margin: auto auto;
-   border: solid 23px white;
-   background-color: var(--bg-color2-);
+    margin: auto auto;
+    border: solid 23px white;
+    background-color: var(--bg-color2-);
 }
-.search input{
+
+.search input {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     padding: 2%;
     border-radius: 6px;
-    margin-right:2%;
+    margin-right: 2%;
 }
-.search i{
-    color:var(--color-nf);
+
+.search i {
+    color: var(--color-nf);
 }
+
 /* MENU MOBILE */
-.menu{
+.menu {
     display: flex;
     margin: 0 3% 0 0;
     color: var(--bg-color2-);
 }
-.menu i{
+
+.menu i {
     cursor: pointer;
     margin-right: 20px;
 }
-.menu .lupa{
+
+.menu .lupa {
     transition: 154ms;
 }
+
 .menu .lupa:hover {
     transform: scale(1.5);
 }
 
 /* MENU NAV LIST */
-.btns{
-    display: none;   /* MENU NAV LISTA SERA DESBLOQUEADO NO RESPONSIVO */
+.btns {
+    display: none;
+    /* MENU NAV LISTA SERA DESBLOQUEADO NO RESPONSIVO */
     margin-right: 3%;
 }
-.btns .btn{
+
+.btns .btn {
     padding: 3px 10px;
     border-radius: 6px;
     cursor: pointer;
 }
-.btns .btn-cadastrar{
+
+.btns .btn-cadastrar {
     float: right;
     margin-right: 2%;
     background-color: #00000070;
     color: var(--bg-color);
-    border:solid 1px white;
+    border: solid 1px white;
 
 }
-.btns .btn-entrar{
+
+.btns .btn-entrar {
     float: right;
     background-color: var(--colorlinks-);
     border: none;
@@ -121,10 +135,10 @@ nav{
 
 /* <!-- INPUT POSSO TE AJUDAR --> */
 
-.question{
+.question {
     width: 100%;
     height: 24.1875em;
-    background-color:var(--bg-color);
+    background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,25 +146,29 @@ nav{
     text-align: center;
     padding: 0 3%;
 }
-.question h1{
+
+.question h1 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 1em;
     font-weight: 500;
 
 }
-.question form{
+
+.question form {
     width: 100%;
     position: relative;
 }
-.question input{
+
+.question input {
     cursor: pointer;
     width: 100%;
     height: 100%;
     padding: 1.5em;
     border-radius: 6px;
 }
-.question i{
+
+.question i {
     position: absolute;
     top: 50%;
     right: 0;
@@ -159,76 +177,94 @@ nav{
     border: none;
 }
 
-    /* INICIO DA MAIN */
-.container{
+/* INICIO DA MAIN */
+.container .abstract {
     width: 100%;
     text-align: center;
     margin-top: 20%;
 }
+
 /* CONTAINER DOS CARD */
-.container .container-publi{
+.abstract .container-publi {
     margin-bottom: 20%;
     max-width: 100%;
     margin-inline: 3%;
     display: flex;
     padding: 0 8%;
 }
+
 /* DIMENSIONAR IMAGENS */
-.container .container-publi img{
+.abstract .container-publi img {
     width: 4.43em;
     height: 4.43em;
     margin-right: 6%;
 }
+
 /* DIRECIONAR TEXTO */
-.container .container-publi .descricao{
-text-align: start;
+.abstract .container-publi .descricao {
+    text-align: start;
 }
+
 /* DIMENSIONAR TEXTO H2 */
-.container .container-publi .descricao h2{
+.abstract .container-publi .descricao h2 {
     font-size: 1.5em;
     text-align: start;
     font-weight: bolder;
     margin-bottom: 5%;
 }
+
 /* DIMENSIONAR TEXTO P */
-.container .container-publi .descricao p{
+.abstract .container-publi .descricao p {
     font-size: 1.5em;
     text-align: start;
     margin-bottom: 5%;
-  
 }
+
 /* DIMENSIONAR LINK */
-.container .container-publi .descricao a{
+.abstract .container-publi .descricao a {
     width: 100%;
     text-align: start;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     ;
 }
+
 /* DIMENSIONAR ICON */
-.container .container-publi .descricao i{
+.abstract .container-publi .descricao i {
     padding: 4%;
 }
+
 /* <------INICIO DO RODAPE-----> */
 
-footer{
+footer {
     position: relative;
-    padding:3% 3% 30%;
+    padding: 3% 3% 15%;
     display: grid;
-    grid-template-columns:60% 35%;
+    grid-template-columns: 60% 35%;
     width: 100%;
     background-color: var(--color-nf);
     color: var(--bg-color2-);
 }
-.rodape{
 
- text-align: start;
- margin: 10px 4%;
-
+.rodape {
+    text-align: start;
+    margin: 10px 4%;
 }
-footer .copyright{
+
+.rodape h3 {
+    margin-bottom: 4%;
+}
+
+footer .copyright {
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
 }
-footer img{
+
+footer .e-mail {
+    padding: 0 4% 0 0;
+}
+
+footer img {
     width: 5em;
 }
+
+

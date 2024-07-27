@@ -1,0 +1,213 @@
+/* RESPONSIVO (media queries) */
+
+/* smartphones estilo paisagem */
+
+@media screen and (min-width:480px) {
+    footer .copyright {
+        width: 80%;
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+    }
+
+    .navbar span {
+        display: none;
+    }
+}
+
+/* TABLETS EM FORMATO RETRATO */
+
+@media screen and (min-width:768px) {
+    .question h1 {
+        font-size: 3.5em;
+    }
+}
+
+.navbar span {
+    display: flex;
+    font-size: 1.3em;
+}
+
+/* TABLETS EM FORMATO PAISAGEM E MONITORES*/
+
+@media screen and (min-width:960px) {
+    .menu i {
+        font-size: 2em;
+    }
+
+    .menu .lupa {
+        font-size: 2em;
+    }
+
+    .navbar span {
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    .question h1 {
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: 0.5em;
+        font-weight: 500;
+
+    }
+
+    .container .abstract {
+        display: grid !important;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        text-align: center;
+        margin: 10% 3%;
+        padding: 0 3%;
+    }
+
+    /* CONTAINER DOS CARD */
+    .abstract .container-publi {
+        width: 90%;
+        margin-bottom: 10%;
+        margin-inline: 0;
+        padding: 0;
+    }
+
+    .abstract .container-publi img {
+        width: 4.43em;
+        height: 4.43em;
+        margin-right: 4%;
+    }
+
+    .rodape h3 {
+        font-size: 1.3em;
+    }
+
+    .rodape li {
+        font-size: 1.3em;
+    }
+
+    .rodape p {
+        font-size: 1.3em;
+    }
+
+    footer .copyright {
+        font-size: 1.3em;
+        text-align: center;
+        max-width: 60%;
+        position: absolute;
+        bottom: 50px;
+        left: 170px;
+    }
+}
+
+/* DESKTOPS COM MONITORES MAIORES WIDESCREEN */
+@media screen and (min-width:1200px) {
+    nav {
+        height: 10vh;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .btns {
+
+        display: flex;
+        padding: 0 10% 0 0;
+    }
+
+    .btns .btn {
+        border-radius: 20px;
+        margin-right: 6%;
+        padding: 15px;
+        font-size: 2.5em;
+    }
+
+    .btns .btn-cadastrar {
+        width: 260px;
+    }
+
+    .navbar span {
+        display: flex;
+        font-size: 2em;
+    }
+
+    .navbar img {
+        width: 9em;
+    }
+
+    .question {
+        width: 100%;
+    }
+
+    .question h1 {
+        width: 80%;
+        font-size: 5em;
+        text-align: center;
+        margin-bottom: 0.5em;
+        font-weight: 500;
+    }
+
+    .question form {
+        width: 100%;
+        position: relative;
+    }
+
+    .question form {
+        width: 100%;
+    }
+
+
+.question i {
+    width: 30%;
+}
+
+.question input {
+    width: 80%;
+}
+
+.question input::placeholder {
+    font-size: 1.5em;
+}
+
+.container .abstract {
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    text-align: center;
+    margin: 10% 3%;
+    padding: 0 3%;
+}
+
+/* CONTAINER DOS CARD */
+.abstract .container-publi {
+    width: 90%;
+    margin-bottom: 10%;
+    margin-inline: 0;
+    padding: 0;
+}
+
+.abstract .container-publi img {
+    width: 5.12em;
+    height: 5.12em;
+    margin-right: 4%;
+}
+
+.rodape h3 {
+    font-size: 1.3em;
+}
+
+.rodape li {
+    font-size: 1.3em;
+}
+
+.rodape p {
+    font-size: 1.3em;
+}
+
+footer .copyright {
+    font-size: 1.3em;
+    text-align: center;
+    max-width: 60%;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+}
+}
