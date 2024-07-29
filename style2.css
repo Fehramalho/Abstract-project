@@ -206,3 +206,48 @@ aside{
           margin: 0 0 4% 6%;       
         }
       }
+      @media screen and (min-width:1200px) {
+        .container{
+          overflow: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 60%;
+          height: 70%;
+          margin-block: auto;
+          border:solid 6px #0000004f;
+          border-radius: 6px;
+        }
+        .topo{
+          margin-block: 4%;
+        }
+        .login{
+          padding-inline: 4%;
+          display: grid;
+          grid-template-columns:50% 5% 45%;
+          height: 100%;
+          align-items: flex-start;
+        }
+        .login .logo {
+          width: 90%;
+        
+        }
+        .login .line{
+          width: 0;
+          height: 80%;
+        }
+        .login .content{
+          width: 100%;
+        }
+        
+          .login .content form .eyes{
+            top: 46%;
+            left: 91%;
+          }
+          aside{
+            width: 100%;
+            justify-content: flex-start;
+            gap: 9px;
+            margin: 0 0 4% 6%;       
+          }
+        }
