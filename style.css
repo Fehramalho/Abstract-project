@@ -106,13 +106,14 @@ nav {
 .btns {
   display: none;
   /* MENU NAV LISTA SERA DESBLOQUEADO NO RESPONSIVO */
-  margin-right: 3%;
+
 }
 
 .btns .btn {
-  padding: 3px 10px;
+  padding: 3px 8px;
   border-radius: 6px;
   cursor: pointer;
+
 }
 
 .btns .btn-cadastrar {
@@ -124,9 +125,15 @@ nav {
 }
 
 .btns .btn-entrar {
+  color: var(--bg-color2-);
   float: right;
   background-color: var(--colorlinks-);
   border: none;
+  transition: 180ms;
+}
+.btns .btn-entrar:hover{
+  background-color: var(--bg-color2-);
+  color: var(--colorlinks-);
 }
 
 /* <!-- INPUT POSSO TE AJUDAR --> */
