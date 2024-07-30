@@ -21,7 +21,10 @@ a {
 ul {
   list-style: none;
 }
-
+body
+{
+  position: relative;
+}
 nav {
   height: 15vh;
   background: var(--color-nf);
@@ -135,6 +138,7 @@ nav {
   background-color: var(--bg-color2-);
   color: var(--colorlinks-);
 }
+
 
 /* <!-- INPUT POSSO TE AJUDAR --> */
 
